@@ -1,3 +1,7 @@
+ul {
+    list-style: none;
+}
+
 li:hover {
     background-color:darkgoldenrod;
     font-size: 24px;
@@ -11,4 +15,25 @@ li {
 li:active {
     background-color:green;
     font-style: italic;
+}
+
+li::before {
+    content: "☑️";
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+li:hover::after {
+    content: "Pick me!";
+    background-color:darkgrey;
+    margin-left: 5px;
+}
+
+li:active::before {
+    content: "✅";
+}
+
+li:active::after {
+    content: "Thanks!! 🌝";
+    background-color:darkgreen;
 }
