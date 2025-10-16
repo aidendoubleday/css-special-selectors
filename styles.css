@@ -1,0 +1,14 @@
+li:hover {
+    background-color:darkgoldenrod;
+    font-size: 24px;
+    cursor:crosshair;
+}
+
+li {
+    background-color:lightgrey;
+}
+
+li:active {
+    background-color:green;
+    font-style: italic;
+}
