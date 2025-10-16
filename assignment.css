@@ -12,4 +12,26 @@
 }
 
 /* Add your CSS styles below this line */
+a {
+    background-color:coral;
+    padding: 15px;
+    text-decoration: none;
+    color:white;
+    border-radius: 5%;
+}
 
+p:hover::after {
+    content: "now $29";
+    margin-left: 5px;
+    color:red;
+}
+
+a:hover {
+    padding: 0px;
+    color:coral;
+    margin: 20px;
+}
+
+a:active: {
+    background-color:red;
+}
